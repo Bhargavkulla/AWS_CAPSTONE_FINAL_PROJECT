@@ -2,7 +2,6 @@
 
 AWSTemplateFormatVersion: '2010-09-09'
 Description: EKS Infrastructure with VPC, Subnets, NAT Gateway, RDS, DynamoDB, and CloudWatch
-
 Parameters:
   VpcCidr:
     Type: String
