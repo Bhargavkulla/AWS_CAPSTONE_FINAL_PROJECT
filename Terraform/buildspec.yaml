@@ -9,7 +9,7 @@ phases:
       - curl -o terraform.zip https://releases.hashicorp.com/terraform/1.8.4/terraform_1.8.4_linux_amd64.zip
       - unzip terraform.zip
       - mv terraform /usr/local/bin/
-      - terraform version
+      - terraform -version
 
   pre_build:
     commands:
